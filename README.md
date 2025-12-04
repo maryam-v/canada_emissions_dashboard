@@ -72,7 +72,7 @@ canada-emissions-dashboard/
 
 ### 6. Total Emissions by Region (1990–2023)  
 *Alberta and Ontario contribute nearly 60% of Canada’s total emissions.*  
-![Emissions by Region Donut](visuals/emissions_by_region_donut.png)
+![Emissions by Region Donut](visuals/emissions_by_region_pie.png)
 
 ### 7. Total Emissions by Region (Map View)  
 *Alberta and Ontario show the highest average emissions, while other provinces remain far lower.*  
@@ -86,7 +86,7 @@ canada-emissions-dashboard/
 
 ### 9. Total Emissions by Source (Canada)  
 *Oil & Gas and Transport together account for more than half of Canada’s greenhouse gas emissions.*  
-![Emissions by Source Donut](visuals/emissions_by_source_donut.png)
+![Emissions by Source Donut](visuals/emissions_by_source_pie.png)
 
 ### 10. Greenhouse Gas Emissions by Source Over Time  
 *Oil & Gas and Transport dominate consistently, while electricity emissions decline after 2005.*  
