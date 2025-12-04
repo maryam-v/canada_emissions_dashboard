@@ -29,11 +29,16 @@ canada-emissions-dashboard/
 ├── data_description.md
 ├── queries.sql
 ├── visuals/
-│   ├── alberta_vs_ontario_trend.png
-│   ├── alberta_source_trend.png
-│   ├── emissions_by_region.png
-│   ├── emissions_by_source.png
-│   └── canada_total_trend.png
+│   ├── alberta_emissions_by_source_trend.png
+│   ├── alberta_vs_ontario_emissions_trend.png
+│   ├── canada_total_emissions_trend.png
+│   ├── canada_emissions_decade_bars.png
+│   ├── canada_per_capita_emissions_trend.png
+│   ├── emissions_by_source_donut.png
+│   ├── emissions_by_region_donut.png
+│   ├── emissions_by_region_bar.png
+│   ├── emissions_by_region_map.png
+│   └── emissions_by_source_heatmap.png
 ├── notebooks/
 │   └── emissions_analysis.ipynb
 └── LICENSE
@@ -41,50 +46,52 @@ canada-emissions-dashboard/
 
 ```
 
-## Visuals
+## 📊 Visuals
 
-### 1. Alberta Emissions by Source Trend
-*Oil & Gas emissions surged significantly by 82K units, while electricity declined and other sectors stayed stable.*
-![Alberta Emissions by Source Trend](visuals/alberta_source_trend.png)
+### 1. Canada’s Total Emissions Trend (1990–2023)  
+*Emissions climbed until 2008, then fluctuated, with sharp drops in 2009 and 2020.*  
+![Canada Total Emissions Trend](visuals/canada_total_emissions_trend.png)
 
-### 2. Average CO₂eq Emissions by Region (1990–2023)
-*Alberta and Ontario show the highest average emissions, while other provinces remain far lower.*
-![Average CO₂eq Emissions by Region](visuals/average_emissions_by_region.png)
+### 2. Canada’s Emissions Over Time (Decade Averages)  
+*National emissions peaked in the 2000s before declining, showing progress after decades of growth.*  
+![Canada Emissions Decade Bars](visuals/canada_emissions_decade_bars.png)
 
-### 3. Alberta vs Ontario CO₂eq Trend (1990–2023)
-*Alberta’s emissions rose by ~170K units, while Ontario reduced sharply after its coal phase-out.*
-![Alberta vs Ontario Trend](visuals/alberta_vs_ontario_trend.png)
+### 3. Canada’s Per Capita Emissions Trend (1990–2023)  
+*Canada’s per capita emissions peaked in the early 2000s and declined steadily after 2007, reaching 17.33 tonnes CO₂e per person in 2023.*  
+![Canada Per Capita Emissions Trend](visuals/canada_per_capita_emissions_trend.png)
 
-### 4. Canada’s CO₂eq Emissions Over Time
-*National emissions climbed until 2008, then fluctuated, with sharp drops in 2009 and 2020.*
-![Canada Emissions Over Time](visuals/canada_total_trend.png)
+---
 
-### 5. Total Emissions by Source (Canada)
-*Oil & Gas and Transport together account for more than half of Canada’s greenhouse gas emissions.*
-![Emissions by Source](visuals/emissions_by_source.png)
+### 4. Alberta vs Ontario Emissions Trend (1990–2023)  
+*Alberta’s emissions rose by ~170K kt CO₂eq, while Ontario reduced sharply after its coal phase‑out.*  
+![Alberta vs Ontario Emissions Trend](visuals/alberta_vs_ontario_emissions_trend.png)
 
-### 6. Greenhouse Gas Emissions by Source Over Time
-*Oil & Gas and Transport dominate consistently, while electricity emissions decline after 2005.*
-![Emissions by Source Over Time](visuals/emissions_heatmap.png)
-
-### 7. Total Emissions by Region (1990–2023)
-*Alberta and Ontario contribute nearly 60% of Canada’s total emissions.*
-![Emissions by Region Donut](visuals/emissions_by_region_donut.png)
-
-### 8. Regional Emissions Ranking (1990–2023)
-*Alberta leads with 247K kt CO₂eq, followed by Ontario and Quebec, highlighting provincial disparities.*
+### 5. Regional Emissions Ranking (1990–2023)  
+*Alberta leads with 8.41M kt CO₂eq, followed by Ontario and Quebec, highlighting provincial disparities.*  
 ![Emissions by Region Bar](visuals/emissions_by_region_bar.png)
 
-### 9. Canada’s Total CO₂eq Emissions Trend (1990–2022)
-*Emissions climbed until 2005, then fluctuated, with sharp drops in 2009 and 2020.*
-![Canada Total Trend](visuals/canada_total_line.png)
+### 6. Total Emissions by Region (1990–2023)  
+*Alberta and Ontario contribute nearly 60% of Canada’s total emissions.*  
+![Emissions by Region Donut](visuals/emissions_by_region_donut.png)
 
+### 7. Total Emissions by Region (Map View)  
+*Alberta and Ontario show the highest average emissions, while other provinces remain far lower.*  
+![Emissions by Region Map](visuals/emissions_by_region_map.png)
 
-## 📸 Dashboard Screenshot
+---
 
-Here’s the full Canada Emissions Dashboard built in Databricks:
+### 8. Alberta Emissions by Source Trend (1990–2023)  
+*Oil & Gas emissions surged by 82K kt CO₂eq, while electricity declined and other sectors remained stable.*  
+![Alberta Emissions by Source Trend](visuals/alberta_emissions_by_source_trend.png)
 
-![Canada Emissions Dashboard](visuals/dashboard_overview.png)
+### 9. Total Emissions by Source (Canada)  
+*Oil & Gas and Transport together account for more than half of Canada’s greenhouse gas emissions.*  
+![Emissions by Source Donut](visuals/emissions_by_source_donut.png)
+
+### 10. Greenhouse Gas Emissions by Source Over Time  
+*Oil & Gas and Transport dominate consistently, while electricity emissions decline after 2005.*  
+![Emissions by Source Heatmap](visuals/emissions_by_source_heatmap.png)
+
 
 ## How to Reproduce
 1. Clone the repository:
