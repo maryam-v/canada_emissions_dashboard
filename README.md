@@ -3,9 +3,10 @@
 ## Overview
 This project is an end-to-end **Databricks dashboard** analyzing greenhouse gas (GHG) emissions in Canada from 1990–2023. It is to test and showcase advanced SQL, visualization, and analytics skills.
 
-## Data Source
-- Environment and Climate Change Canada (ECCC) – National Inventory Report datasets
-- Covers emissions by **region** and **sector** from 1990–2023
+## 📊 Data Source
+- **Environment and Climate Change Canada (ECCC)** – National Inventory Report datasets  
+  [EN_GHG_Econ_Can_Prov_Terr.csv](https://data-donnees.az.ec.gc.ca/data/substances/monitor/canada-s-official-greenhouse-gas-inventory/B-Economic-Sector/EN_GHG_Econ_Can_Prov_Terr.csv)  
+- Dataset covers greenhouse gas emissions by **region** and **sector** from **1990–2023**, reported in kilotonnes (kt CO₂e).
 
 ## Features
 - **Regional Analysis**: Compare provinces such as Alberta, Ontario, Quebec, Saskatchewan, British Columbia, Manitoba, Nova Scotia, New Brunswick, Newfoundland and Labrador, Prince Edward Island
