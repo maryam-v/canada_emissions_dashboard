@@ -78,6 +78,13 @@ canada-emissions-dashboard/
 *Emissions climbed until 2005, then fluctuated, with sharp drops in 2009 and 2020.*
 ![Canada Total Trend](visuals/canada_total_line.png)
 
+
+## 📸 Dashboard Screenshot
+
+Here’s the full Canada Emissions Dashboard built in Databricks:
+
+![Canada Emissions Dashboard](visuals/dashboard_overview.png)
+
 ## How to Reproduce
 1. Clone the repository:
    ```bash
