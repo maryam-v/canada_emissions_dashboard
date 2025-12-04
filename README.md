@@ -44,7 +44,7 @@ README.md # Project overview
 ## How to Reproduce
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/canada-emissions-dashboard.git](https://github.com/maryam-v/canada_emissions_dashboard.git)
+   git clone https://github.com/yourusername/canada-emissions-dashboard.git
    
 2. Import SQL queries into Databricks.
 
