@@ -21,11 +21,22 @@ This project is an end-to-end **Databricks dashboard** analyzing greenhouse gas 
 ## Repository Structure
 
 ```
-queries/ # SQL queries used in Databricks 
-visuals/ # PNG charts and maps 
-schema.md # Dataset schema 
-documentation data_description.md # Data dictionary and notes 
-README.md # Project overview
+canada-emissions-dashboard/
+│
+├── README.md
+├── schema.md
+├── data_description.md
+├── queries.sql
+├── visuals/
+│   ├── alberta_vs_ontario_trend.png
+│   ├── alberta_source_trend.png
+│   ├── emissions_by_region.png
+│   ├── emissions_by_source.png
+│   └── canada_total_trend.png
+├── notebooks/
+│   └── emissions_analysis.ipynb
+└── LICENSE
+
 
 ```
 
