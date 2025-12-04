@@ -86,7 +86,7 @@ canada-emissions-dashboard/
 
 ### 9. Total Emissions by Source (Canada)  
 *Oil & Gas and Transport together account for more than half of Canada’s greenhouse gas emissions.*  
-![Emissions by Source Donut](visuals/emissions_by_source_pie.png)
+![Emissions by Source Donut](visuals/emissions_by_source_donut.png)
 
 ### 10. Greenhouse Gas Emissions by Source Over Time  
 *Oil & Gas and Transport dominate consistently, while electricity emissions decline after 2005.*  
