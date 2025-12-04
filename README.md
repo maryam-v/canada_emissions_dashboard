@@ -68,7 +68,7 @@ canada-emissions-dashboard/
 
 ### 5. Regional Emissions Ranking (1990–2023)  
 *Alberta leads with 8.41M kt CO₂eq, followed by Ontario and Quebec, highlighting provincial disparities.*  
-![Emissions by Region Bar](visuals/emissions_by_region_bar.png)
+![Emissions by Region Bar](visuals/regional_emissions_ranking_bar.png)
 
 ### 6. Total Emissions by Region (1990–2023)  
 *Alberta and Ontario contribute nearly 60% of Canada’s total emissions.*  
