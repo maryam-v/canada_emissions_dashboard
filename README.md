@@ -25,8 +25,6 @@ This project is an end-to-end **Databricks dashboard** analyzing greenhouse gas 
 canada-emissions-dashboard/
 │
 ├── README.md
-├── schema.md
-├── data_description.md
 ├── queries.sql
 ├── visuals/
 │   ├── alberta_emissions_by_source_trend.png
@@ -39,8 +37,6 @@ canada-emissions-dashboard/
 │   ├── emissions_by_region_bar.png
 │   ├── emissions_by_region_map.png
 │   └── emissions_by_source_heatmap.png
-├── notebooks/
-│   └── emissions_analysis.ipynb
 └── LICENSE
 
 
