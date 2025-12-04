@@ -30,21 +30,54 @@ README.md # Project overview
 ```
 
 ## Visuals
-### Alberta vs Ontario Emissions Trend
+
+### 1. Alberta Emissions by Source Trend
+*Oil & Gas emissions surged significantly by 82K units, while electricity declined and other sectors stayed stable.*
+![Alberta Emissions by Source Trend](visuals/alberta_source_trend.png)
+
+### 2. Average CO₂eq Emissions by Region (1990–2023)
+*Alberta and Ontario show the highest average emissions, while other provinces remain far lower.*
+![Average CO₂eq Emissions by Region](visuals/average_emissions_by_region.png)
+
+### 3. Alberta vs Ontario CO₂eq Trend (1990–2023)
+*Alberta’s emissions rose by ~170K units, while Ontario reduced sharply after its coal phase-out.*
 ![Alberta vs Ontario Trend](visuals/alberta_vs_ontario_trend.png)
 
-### Emissions by Source
+### 4. Canada’s CO₂eq Emissions Over Time
+*National emissions climbed until 2008, then fluctuated, with sharp drops in 2009 and 2020.*
+![Canada Emissions Over Time](visuals/canada_total_trend.png)
+
+### 5. Total Emissions by Source (Canada)
+*Oil & Gas and Transport together account for more than half of Canada’s greenhouse gas emissions.*
 ![Emissions by Source](visuals/emissions_by_source.png)
 
-### Emissions by Region
-![Emissions by Region](visuals/emissions_by_region.png)
+### 6. Greenhouse Gas Emissions by Source Over Time
+*Oil & Gas and Transport dominate consistently, while electricity emissions decline after 2005.*
+![Emissions by Source Over Time](visuals/emissions_heatmap.png)
+
+### 7. Total Emissions by Region (1990–2023)
+*Alberta and Ontario contribute nearly 60% of Canada’s total emissions.*
+![Emissions by Region Donut](visuals/emissions_by_region_donut.png)
+
+### 8. Regional Emissions Ranking (1990–2023)
+*Alberta leads with 247K kt CO₂eq, followed by Ontario and Quebec, highlighting provincial disparities.*
+![Emissions by Region Bar](visuals/emissions_by_region_bar.png)
+
+### 9. Canada’s Total CO₂eq Emissions Trend (1990–2022)
+*Emissions climbed until 2005, then fluctuated, with sharp drops in 2009 and 2020.*
+![Canada Total Trend](visuals/canada_total_line.png)
+
+## How to Reproduce
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/canada-emissions-dashboard.git
 
 *(More visuals available in the `visuals/` folder)*
 
 ## How to Reproduce
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/canada-emissions-dashboard.git
+   git clone https://github.com/maryam-v/canada_emissions_dashboard.git
    
 2. Import SQL queries into Databricks.
 
